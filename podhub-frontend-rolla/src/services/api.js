@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL||"http://localhost:3000/api", // adjust if needed
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000/api",
 });
 
 // Attach token automatically to every request

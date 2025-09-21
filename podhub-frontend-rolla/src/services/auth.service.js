@@ -1,23 +1,21 @@
-import axios from "axios";
-const API_URL = "http://localhost:3000/api/auth";
+// src/services/auth.service.js
+import api from "./api"; // import your axios instance
 
 export const register = async (userData) => {
-  const res = await axios.post(`${API_URL}/register`, userData);
+  const res = await api.post("/auth/register", userData); // no need for full URL
   return res.data;
 };
 
 export const login = async (credentials) => {
-  const res = await axios.post(`${API_URL}/login`, credentials);
+  const res = await api.post("/auth/login", credentials);
   console.log("In login", res);
   if (res.data.token) {
     const dataToSave = {
-      // Explicitly pull each piece of data to ensure it's included
       name: res.data.user.name,
       email: res.data.user.email,
       role: res.data.user.role,
       token: res.data.token,
     };
-
     localStorage.setItem("userData", JSON.stringify(dataToSave));
   }
   return res.data;

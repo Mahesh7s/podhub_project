@@ -81,6 +81,3 @@ This is the backend API for PodHub, a podcast platform supporting users, creator
 - Audio uploads use Cloudinary; ensure your credentials are correct.
 - CORS is configured for the deployed frontend.
 
-## License
-
-MIT

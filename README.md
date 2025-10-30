@@ -79,6 +79,28 @@ React + Vite frontend with TailwindCSS & Material UI
 
 Works seamlessly on desktop and mobile devices
 
+## Setup
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Mahesh7s/podhub_project.git
+   cd backend
+   cd frontend //for frontend
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Configure environment variables:**
+
+   Create a `.env` file in the `backend/` directory with the following:
+
+   Add your own details in the .env file with same keys
+
+   ```
+
 🛠️ Tech Stack
 
 Frontend: React, Vite, TailwindCSS, Material UI

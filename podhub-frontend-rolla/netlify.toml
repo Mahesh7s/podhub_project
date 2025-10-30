@@ -1,5 +1,5 @@
 [build]
-  base = "podhub-frontend-rolla"
+  
   command = "cd podhub-frontend-rolla && npm run build"
   publish = "podhub-frontend-rolla/dist"
 

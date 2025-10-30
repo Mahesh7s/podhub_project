@@ -85,6 +85,3 @@ This is the frontend for PodHub, a podcast platform for users, creators, and adm
 - Make sure the backend CORS allows your frontend origin.
 - For production, update the API URL and CORS settings accordingly.
 
-## License
-
-MIT

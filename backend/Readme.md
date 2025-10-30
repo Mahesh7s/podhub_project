@@ -7,7 +7,7 @@ This is the backend API for PodHub, a podcast platform supporting users, creator
 - User, Creator, and Admin authentication (JWT)
 - Podcast episode upload (audio files via Cloudinary)
 - Comments and replies on episodes
-- Subscriptions (users can subscribe to creators)
+- Subscriptions (users can subscribe to creators) 
 - Loyalty points system
 - Analytics for creators and admins
 - Discounted subscription links (for creators)
@@ -81,6 +81,3 @@ This is the backend API for PodHub, a podcast platform supporting users, creator
 - Audio uploads use Cloudinary; ensure your credentials are correct.
 - CORS is configured for the deployed frontend.
 
-## License
-
-MIT
